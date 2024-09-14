@@ -1,0 +1,21 @@
+a{
+    color: purple;
+}
+.menu{
+    color: green;
+}
+.vegetable{
+    list-style: circle;
+}
+.berry{
+    list-style: square;
+}
+ul li ul{
+    list-style: none;
+}
+.last a{
+    text-decoration: none;
+}
+.last ul{
+    list-style: decimal;
+}

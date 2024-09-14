@@ -1,0 +1,49 @@
+.text-background p span {
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.text-background div span {
+    background-color: yellow;
+}
+
+span span {
+    background-color: grey;
+    text-decoration: line-through;
+}
+
+ul span span {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+section > p {
+    text-shadow: 3px 3px 5px rebeccapurple;
+    text-indent: 50px;
+}
+
+li > ul {
+    list-style-image: url('img.png');
+
+}
+
+div > .text-background {
+    word-spacing: 50px;
+}
+
+.text-bold > p {
+    font-weight: bold;
+}
+
+.text-bold > div > section > p {
+    line-height: 45px;
+}
+
+img + p {
+    background-color: brown;
+}
+
+section ~ p {
+    color: red;
+}
