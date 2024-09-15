@@ -5,7 +5,7 @@ a{
     color: green;
 }
 .vegetable{
-    list-style: circle;
+    list-style-image: url("li.svg");
 }
 .berry{
     list-style: square;

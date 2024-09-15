@@ -1,48 +1,51 @@
 *{
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Josefin Sans, serif;
 }
+
 h1{
     color: red;
 }
-h2 i {
+
+h2 {
     font-style: italic;
 }
-p {
-    font-family: 'MS Outlook', sans-serif; /* Якщо необхідно змінити шрифт */
-}
-b {
+
+.bold{
     font-weight: bold;
 }
 
-u {
+.marked{
+    background: yellow;
+}
+
+ul{
+    list-style-type: none;
+}
+
+hr{
+    width: 70%;
+    color: green;
+    height: 5px;
+    background: green;
+}
+
+.u{
     text-decoration: underline;
 }
 
-s {
+#up{
+    vertical-align: super;
+}
+
+#down{
+    vertical-align: sub;
+}
+
+.line{
     text-decoration: line-through;
 }
 
-sup {
-    font-size: 0.8em; /* Корекція розміру верхнього індексу */
-}
-
-sub {
-    font-size: 0.8em; /* Корекція розміру нижнього індексу */
-}
-
-mark {
-    background-color: yellow; /* Виділення тексту */
-}
-
-hr {
-    width: 70%;
-    border: none;
-    height: 5px;
-    background-color: green;
-}
-
-.note {
+footer p {
     font-style: italic;
-    line-height: 1.5;
 }
