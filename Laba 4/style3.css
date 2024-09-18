@@ -16,6 +16,3 @@ ul li ul{
 .last a{
     text-decoration: none;
 }
-.last ul{
-    list-style: decimal;
-}
