@@ -1,7 +1,5 @@
 
 .block-list {
-    display: flex;
-    flex-wrap: wrap;
     list-style: none;
     padding: 5px;
 }
@@ -11,6 +9,7 @@
     margin: 15px;
     padding: 5px;
     box-sizing: border-box;
+    float: left;
 }
 .block-title{
     font-size: 20px;
@@ -30,26 +29,26 @@
     border-radius: 50px 200px 50px 200px;
 }
 .fourth-block{
-    border-top: 10px solid green;
-    border-bottom: 10px solid green;
-    border-right: 10px solid #85d33c;
-    border-left: 10px solid #85d33c;
-    border-radius: 30px;
+    border: 20px solid;
+    border-color: greenyellow green;
+    border-radius: 15em / 5em;
 }
 .fifth-block{
-    border-left: 10px solid green;
-    border-right: 10px solid green;
-    border-top: 10px solid #85d33c;
-    border-bottom: 10px solid #85d33c;
-    border-radius: 70px 30px 70px 30px;
+    border:  solid ;
+    width: 300px;
+    text-align: center;
+    border-width: 20px;
+    border-radius: 50% 10%/30% 5%;
+    border-color: greenyellow green  greenyellow green;
 }
 
 .sixth-block{
-    border-top: 10px solid #85d33c;
-    border-bottom: 10px solid #85d33c;
-    border-right: 10px solid #85d33c;
-    border-left: 10px solid green;
-    border-radius: 1px 1px 500px 1px;
+    border-style: solid;
+    border-width: 20px;
+    width: 300px;
+    text-align: center;
+    border-radius: 0 0 100% 0;
+    border-color: greenyellow greenyellow greenyellow green;
 }
 
 .seventh-block{
@@ -92,6 +91,7 @@
     border-image-source: url("icons/border-5.png");
     border-image-slice: 30;
 }
+
 .twelfth-block{
     background-color: white;
     border: 20px solid white;
@@ -100,3 +100,4 @@
     border-image-source: url("icons/border-6.png");
     border-image-slice: 30;
 }
+
