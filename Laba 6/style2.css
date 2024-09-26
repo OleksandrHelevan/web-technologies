@@ -1,0 +1,102 @@
+
+.block-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 5px;
+}
+
+.block-list li {
+    width: calc(100% /3 - 30px);
+    margin: 15px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.block-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.first-block{
+    border-radius: 20px;
+    border: 5px solid #85d33c;
+}
+.second-block{
+    border: 5px solid #85d33c;
+    border-radius: 70px 1px 70px 1px;
+}
+.third-block{
+    border: 5px solid #85d33c;
+    border-radius: 50px 200px 50px 200px;
+}
+.fourth-block{
+    border-top: 10px solid green;
+    border-bottom: 10px solid green;
+    border-right: 10px solid #85d33c;
+    border-left: 10px solid #85d33c;
+    border-radius: 30px;
+}
+.fifth-block{
+    border-left: 10px solid green;
+    border-right: 10px solid green;
+    border-top: 10px solid #85d33c;
+    border-bottom: 10px solid #85d33c;
+    border-radius: 70px 30px 70px 30px;
+}
+
+.sixth-block{
+    border-top: 10px solid #85d33c;
+    border-bottom: 10px solid #85d33c;
+    border-right: 10px solid #85d33c;
+    border-left: 10px solid green;
+    border-radius: 1px 1px 500px 1px;
+}
+
+.seventh-block{
+    background-color: white;
+    border: 20px solid white;
+    width: 300px;
+    padding: 5px;
+    border-image-source: url("icons/border-1.png");
+    border-image-slice: 50;
+}
+.eight-block{
+    background-color: white;
+    border: 20px solid white;
+    width: 300px;
+    padding: 5px;
+    border-image-source: url("icons/border-2.png");
+    border-image-slice: 30;
+}
+.ninth-block{
+    background-color: white;
+    border: 20px solid white;
+    width: 300px;
+    padding: 5px;
+    border-image-source: url("icons/border-3.png");
+    border-image-slice: 30;
+}
+.tenth-block{
+    background-color: white;
+    border: 20px solid white;
+    width: 300px;
+    padding: 5px;
+    border-image-source: url("icons/border-4.png");
+    border-image-slice: 30;
+}
+.eleventh-block{
+    background-color: white;
+    border: 20px solid white;
+    width: 300px;
+    padding: 5px;
+    border-image-source: url("icons/border-5.png");
+    border-image-slice: 30;
+}
+.twelfth-block{
+    background-color: white;
+    border: 20px solid white;
+    width: 300px;
+    padding: 5px;
+    border-image-source: url("icons/border-6.png");
+    border-image-slice: 30;
+}
