@@ -56,7 +56,7 @@
     border: 20px solid white;
     width: 300px;
     padding: 5px;
-    border-image-source: url("icons/border-1.png");
+    border-image-source: url("icons/border_1.png");
     border-image-slice: 50;
 }
 .eight-block{
@@ -64,7 +64,7 @@
     border: 20px solid white;
     width: 300px;
     padding: 5px;
-    border-image-source: url("icons/border-2.png");
+    border-image-source: url("icons/border_2.png");
     border-image-slice: 30;
 }
 .ninth-block{
@@ -72,7 +72,7 @@
     border: 20px solid white;
     width: 300px;
     padding: 5px;
-    border-image-source: url("icons/border-3.png");
+    border-image-source: url("icons/border_3.png");
     border-image-slice: 30;
 }
 .tenth-block{
@@ -80,7 +80,7 @@
     border: 20px solid white;
     width: 300px;
     padding: 5px;
-    border-image-source: url("icons/border-4.png");
+    border-image-source: url("icons/border_4.png");
     border-image-slice: 30;
 }
 .eleventh-block{
@@ -88,7 +88,7 @@
     border: 20px solid white;
     width: 300px;
     padding: 5px;
-    border-image-source: url("icons/border-5.png");
+    border-image-source: url("icons/border_5.png");
     border-image-slice: 30;
 }
 
@@ -97,7 +97,7 @@
     border: 20px solid white;
     width: 300px;
     padding: 5px;
-    border-image-source: url("icons/border-6.png");
+    border-image-source: url("icons/border_6.png");
     border-image-slice: 30;
 }
 

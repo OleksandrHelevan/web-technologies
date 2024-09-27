@@ -37,7 +37,9 @@ img{
     padding: 10px;
 }
 .sixth-block{
-
+    border: 1px solid green;
+    padding: 10px;
+    box-shadow: green 0 15px 0 -5px, orange 0 -15px 0 -5px;
 }
 .block-title{
      margin-left: 10px;
