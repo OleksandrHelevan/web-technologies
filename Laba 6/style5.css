@@ -1,8 +1,7 @@
 .block-list{
-    display: flex;
-    flex-wrap: wrap;
+    float: left;
+    position: relative;
     list-style: none;
-    text-align: center;
 }
 .block-list li:last-child{
     margin-right: 0;
@@ -10,17 +9,49 @@
 
 .block-item img{
     border-radius: 250px;
-    width: 50%;
-    height: auto;
-    display: flex;
-    margin: 20px;
+    height: 200px;
+    width: 200px;
 }
 
-
 .block-item{
-   background-color: #5e1212;
+    text-align: center;
+    display: inline-block;
     width: 300px;
     height: 400px;
-    margin-right: 65px;
-    margin-bottom: 10px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+.article-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.first-block{
+    background: linear-gradient(to bottom left, orange 2%, blue 30%, yellow 70%, green 95%);
+}
+
+.second-block {
+    background-image: linear-gradient(45deg, green 20%, transparent 25%, transparent 25%, transparent 75%, orange 75%, blue 100%),
+    linear-gradient(45deg, yellow 20%, transparent 25%, transparent 25%, transparent 75%, purple 75%, orange 100%);
+    background-size: 100px 100px;
+    background-position: 5px 5px, 50px 50px;
+}
+
+.third-block {
+    background-image: linear-gradient(to right, green 25%, transparent 50%, transparent 100%),
+    linear-gradient(to right, transparent 50%, blue 50%, yellow 100%);
+    background-size: 105px;
+    background-repeat: repeat;
+}
+
+.fourth-block {
+    background-image: linear-gradient(to left top, yellow 35%, transparent 10%, transparent 100%),
+    linear-gradient(to right top, green 25%, transparent 10%, transparent 100%),
+    linear-gradient(to right bottom, orange 25%, transparent 50%, transparent 70%),
+    linear-gradient(to left bottom, blue 25%, transparent 60%, transparent 100%);
+}
+
+.fifth-block{
+    background-image: linear-gradient(to top, orange 5%, transparent 10%, darkred 35%, transparent 20%);
+
 }
