@@ -20,12 +20,12 @@
 }
 .task-list{
     list-style: none;
-    display: flex;
     float: right;
 
 }
 
 .task-list-item{
+    display: inline-block;
     margin-right: 20px;
     padding: 10px;
     background-color: coral;
@@ -38,6 +38,7 @@
     text-decoration: underline;
 }
 .article-list{
+    /*float: right;*/
     display: flex;
     list-style: none;
     overflow: hidden;
