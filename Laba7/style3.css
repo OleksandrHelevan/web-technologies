@@ -44,7 +44,7 @@ h1{
     /*margin: 20px auto;*/
     position: absolute;
     top: 40px;
-    left: 390px;
+    left: 460px;
 
 }
 h1::first-letter{
@@ -203,6 +203,6 @@ font-size: 18px;
     top: 15%;
     left: 35%;
 }
-.reset:active ~ .reset:before{
+.reset:active:before{
     display: none;
 }
