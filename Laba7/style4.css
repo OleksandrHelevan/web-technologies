@@ -191,35 +191,58 @@
     margin: 0;
     color: black;
 }
+.shopping{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    border-radius: 0;
 
-.hidden-button {
-    display: none;
-    height: 40px;
 }
 
-.shopping:focus ~ .hidden-button {
-    margin-top: 50px;
+.shopping-button{
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+.shopping-button:checked ~ label {
+    border: 2px solid white;
+}
+.shopping label:hover {
+    cursor: pointer;
+    background-color: gray;
+}
+.shopping label{
+    font-weight: 700;
+    width: 100%;
+    height: 100%;
+    background-color: #232222;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-decoration: none;
-    flex-direction: column;
+    border-radius: 20px;
 }
-
-.hidden-button-second {
+.hidden-block{
     display: none;
 }
-
-.show-button {
-    display: none;
-}
-
-.show-button:hover ~ .hidden-button-second {
+.shopping-button:checked ~ .hidden-block{
+    position: absolute;
+    top: 230px;
+    left: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-decoration: none;
     flex-direction: column;
-    margin-top: 10px;
-
+}
+.hidden-block-second{
+    display: none;
+}
+.shopping-button:checked ~ .hidden-block-second{
+    position: absolute;
+    top: 20px;
+    left: 225px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }

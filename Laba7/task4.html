@@ -16,7 +16,7 @@
         </li>
         <li class="searching-block">
             <label for="searching"></label>
-            <input type="text" id="searching">
+            <input type="text" id="searching" placeholder="Search...">
             <a href="#"><img src="icons/mic.svg" alt="mic"></a>
             <a href="#"><img src="icons/search.svg" alt="search"></a>
         </li>
@@ -60,39 +60,42 @@
                     History
                 </a>
             </li>
-            <li>
-                <a href="#" class="shopping">
-                    <img src="icons/shopping.svg" alt="shopping">
+            <li class="shopping">
+
+                <input type="checkbox" class="shopping-button" id="shop">
+                <label for="shop">
+                    <img src="icons/shopping.svg" alt="shop">
                     Shopping
-                </a>
-                <ul class="hidden-button">
+                </label>
+                <ul class="hidden-block">
                     <li>
                         <a href="#">
                             <img src="icons/payments.svg" alt="payments">
                             Payments
                         </a>
                     </li>
-                    <li>
-                        <a href="#" class="show-button">
-                            <img src="icons/shopping_cart_checkout.svg" alt="check">
+                    <li class="shopping">
+                        <input type="checkbox" class="shopping-button" id="shop1">
+                        <label for="shop1">
+                            <img src="icons/shopping_cart_checkout.svg" alt="shop">
                             Check
-                        </a>
-                        <ul class="hidden-button-second">
+                        </label>
+                        <ul class="hidden-block-second">
+                            <li>
+                              <a href="#">
+                                  <img src="icons/done_outline.svg" alt="done">
+                                  Bought
+                              </a>
+                            </li>
                             <li>
                                 <a href="#">
                                     <img src="icons/delete.svg" alt="deleted">
                                     Deleted
                                 </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <img src="icons/done_outline.svg" alt="done">
-                                    Bought
-                                </a>
+
                             </li>
                         </ul>
                     </li>
-
                 </ul>
             </li>
 
