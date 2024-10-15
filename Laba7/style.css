@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+.tasks-list{
+    display: flex;
+    background-color: green;
+    width: 100%;
+    height: 70px;
+    /*display: block;*/
+}
+.task{
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    margin: 5px;
+    display: block;
+}
+.task a{
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 15px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    border: 2px solid white;
+    box-shadow: #232222 5px 5px 2px;
+}
+
+.task a:hover{
+    background-color: darkred;
+    border: 2px solid #000000;
+    box-shadow: none;
+}
