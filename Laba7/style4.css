@@ -12,9 +12,7 @@
     width: 100%;
     list-style: none;
     background-color: #232222;
-    display: flex;
-    justify-content: right;
-    align-items: center;
+    display: block;
     font-weight: 700;
     padding: 5px;
 }
@@ -37,14 +35,11 @@
 }
 
 .navigation-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
+    display: block;
+    padding: 7px;
     width: 50px;
     height: 50px;
     font-weight: 700;
-    padding: 10px;
     margin: 0 5px;
 }
 
@@ -59,12 +54,11 @@
     align-items: center;
     margin: 10px 30px;
     background-color: white;
-    /*padding: 2px;*/
     border-radius: 12px;
 }
 
 .searching-block a {
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     text-decoration: none;
@@ -72,7 +66,6 @@
     height: 40px;
     margin: 0;
     background-color: #595959;
-    /*border-radius: 10px;*/
 }
 
 .searching-block a:last-child {
@@ -133,9 +126,7 @@
     background-size: 80px 80px;
     width: 275px;
     height: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+    display: block;
     padding: 10px;
 
 }
@@ -192,16 +183,16 @@
     color: black;
 }
 .shopping{
-    width: 100%;
+    width: 275px;
     height: 50px;
-    display: flex;
+    display: block;
     border-radius: 0;
 
 }
 
 .shopping-button{
     display: none;
-    width: 100%;
+    width: 275px;
     height: 100%;
 }
 
@@ -220,6 +211,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 5px 50px 5px 20px;
     border-radius: 20px;
 }
 .hidden-block{
@@ -229,10 +221,8 @@
     position: absolute;
     top: 230px;
     left: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    display: block;
+
 }
 .hidden-block-second{
     display: none;
@@ -241,8 +231,5 @@
     position: absolute;
     top: 20px;
     left: 225px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    display: block;
 }
