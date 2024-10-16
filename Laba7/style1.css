@@ -13,7 +13,15 @@
 div div{
     border: 2px solid black;
 }
+
+.left-block{
+    left: 380px;
+}
+.right-block{
+    left: 730px;
+}
 .lateral-block{
+    position: absolute;
     width: 300px;
     height: 150px;
     margin: 5px;
@@ -29,6 +37,7 @@ div div{
     top: 70px;
     left: calc(100vw/2 - 150px);
     text-align: center;
+    z-index: 1;
 }
 
 .wrapper div{

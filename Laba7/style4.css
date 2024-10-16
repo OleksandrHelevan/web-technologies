@@ -131,7 +131,7 @@
 
 }
 
-.panel ul {
+.panel > ul {
     margin-top: 50px;
     list-style: none;
     position: sticky;
@@ -182,54 +182,76 @@
     margin: 0;
     color: black;
 }
-.shopping{
-    width: 275px;
-    height: 50px;
-    display: block;
-    border-radius: 0;
-
-}
-
-.shopping-button{
-    display: none;
-    width: 275px;
-    height: 100%;
-}
-
-.shopping-button:checked ~ label {
-    border: 2px solid white;
-}
-.shopping label:hover {
-    cursor: pointer;
-    background-color: gray;
-}
-.shopping label{
-    font-weight: 700;
-    width: 100%;
-    height: 100%;
-    background-color: #232222;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 5px 50px 5px 20px;
-    border-radius: 20px;
-}
 .hidden-block{
+    margin-top: 50px;
+}
+.hidden-block li{
+    margin-top: 0;
+}
+.hidden-block {
+    list-style: none;
     display: none;
-}
-.shopping-button:checked ~ .hidden-block{
     position: absolute;
-    top: 230px;
-    left: 0;
-    display: block;
-
+    left: 200px;
+    top: 90px;
 }
+
 .hidden-block-second{
     display: none;
-}
-.shopping-button:checked ~ .hidden-block-second{
+    list-style: none;
     position: absolute;
-    top: 20px;
-    left: 225px;
+    left: 200px;
+    top: 70px;
+}
+.hidden-block:hover{
+    display: block;
+}
+.shopping-button:hover ~ .hidden-block {
+    display: block;
+}
+.check-button:hover ~ .hidden-block-second {
+    display: block;
+}
+.hidden-block-second:hover{
+    display: block;
+}
+
+/*vgbhjklm;cdvskfj*/
+.history-hidden-block{
+    padding-top: 10px;
+}
+.history-hidden-block li{
+    margin-top: 0;
+}
+.history-hidden-block {
+    list-style: none;
+    display: none;
+    position: absolute;
+}
+
+.history-hidden-block-second{
+    display: none;
+    list-style: none;
+    position: absolute;
+    left: 200px;
+    top: 80px;
+}
+.history-block:hover{
+    display: block;
+}
+.history-button:hover ~ .history-hidden-block {
+    display: block;
+}
+.history-hidden-block:hover{
+    display: block;
+}
+.some-button:hover ~ .history-hidden-block-second {
+    display: block;
+}
+.history-hidden-block-second:hover{
+    display: block;
+}
+
+.history-button:hover ~ .hidden-block{
     display: block;
 }
