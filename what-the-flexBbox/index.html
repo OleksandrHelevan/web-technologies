@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Pure Flexbox navigation code along</title>
-    <link rel="stylesheet" href="style14.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="wrapper">
@@ -15,7 +15,7 @@
         <a href="#" class="toggleNav"><img src="icons/menu.svg" alt="menu">Menu</a>
         <ul>
             <li><a href="slider.html">Slider</a></li>
-            <li><a href="#">Item 2</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
             <li><a href="#">Item 3</a></li>
             <li><a href="#">Item 4</a></li>
             <li><a href="#">Item 5</a></li>
@@ -39,8 +39,11 @@
 
     <section class="signup">
         <form action="" class="signup">
-            <input type="text" placeholder="Your Name">
-            <input type="email" placeholder="Email Address">
+            <label for="name"></label>
+            <input id="name" type="text" placeholder="Your Name">
+
+            <label for="email"></label>
+            <input id="email" type="email" placeholder="Email Address">
             <input type="submit" value="Sign me up!">
         </form>
     </section>
