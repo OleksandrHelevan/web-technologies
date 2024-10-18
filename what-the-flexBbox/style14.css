@@ -30,10 +30,39 @@ a:hover {
     background: rgba(0, 0, 0, 0.3);
 }
 
+.toggleNav {
+    display: none;
+}
+
+.hero img {
+    height: auto;
+    width: 80%;
+}
+
+.flex-nav img {
+    height: auto;
+    width: 30px;
+}
+
 .wrapper {
     max-width: 1000px;
     margin: 0 auto;
-    padding: 50px;
+    /*padding: 50px;*/
+}
+
+input {
+    padding: 10px;
+    border: 0;
+    margin-bottom: 5px;
+}
+
+section, footer {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px 0;
+    color: white;
+    font-weight: 100;
 }
 
 .flex-nav ul {
@@ -69,8 +98,53 @@ a:hover {
 }
 
 @media all and (max-width: 500px) {
+
     .flex-nav li {
         flex-basis: 100%;
     }
+
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .wrapper > * {
+        order: 9999;
+    }
+
+    .flex-nav {
+        order: 1;
+        margin-bottom: 10px;
+    }
+
+    .toggleNav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            margin-right: 5px;
+        }
+    }
+
+    .flex-nav ul {
+        display: none;
+    }
+
+    .toggleNav:focus ~ ul{
+        display: flex;
+    }
+
+.top{
+    order: 2;
+}
+
+.details{
+    order: 3;
+}
+.signup{
+    order: 4;
+}
+
 
 }
