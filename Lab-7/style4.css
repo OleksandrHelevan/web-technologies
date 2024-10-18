@@ -139,6 +139,7 @@
 }
 
 .panel li {
+    display: block;
     width: 100%;
     height: 70px;
     padding: 10px 0;
@@ -146,15 +147,15 @@
 
 .panel a {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    text-align: center;
     text-decoration: none;
     width: 200px;
     height: 100%;
     font-weight: 700;
     border-radius: 20px;
     background-color: #232222;
-    padding: 5px 50px 5px 20px;
 }
 
 .panel a:focus {
@@ -164,6 +165,7 @@
 
 
 .panel img {
+    display: inline-block;
     width: 35px;
     height: 35px;
     margin-right: 10px;
@@ -182,12 +184,16 @@
     margin: 0;
     color: black;
 }
-.hidden-block{
+
+
+.hidden-block {
     margin-top: 50px;
 }
-.hidden-block li{
+
+.hidden-block li {
     margin-top: 0;
 }
+
 .hidden-block {
     list-style: none;
     display: none;
@@ -196,62 +202,82 @@
     top: 90px;
 }
 
-.hidden-block-second{
+.hidden-block-second {
     display: none;
     list-style: none;
     position: absolute;
     left: 200px;
     top: 70px;
 }
-.hidden-block:hover{
+
+.hidden-block:hover {
     display: block;
 }
+
 .shopping-button:hover ~ .hidden-block {
     display: block;
 }
+
 .check-button:hover ~ .hidden-block-second {
     display: block;
 }
-.hidden-block-second:hover{
+
+.hidden-block-second:hover {
     display: block;
 }
 
-/*vgbhjklm;cdvskfj*/
-.history-hidden-block{
+.history-hidden-block {
     padding-top: 10px;
 }
-.history-hidden-block li{
+
+.history-hidden-block li {
     margin-top: 0;
 }
+
 .history-hidden-block {
+    margin-left: 25px;
     list-style: none;
     display: none;
-    position: absolute;
+    /*position: relative;*/
+}
+.history-hidden-block a{
+    margin-left: 10px;
+    width: 175px;
+
+}
+.history:hover ~ .shopping{
+    margin-top: 140px;
 }
 
-.history-hidden-block-second{
+.history-hidden-block-second {
+    margin: 0;
     display: none;
     list-style: none;
     position: absolute;
     left: 200px;
-    top: 80px;
+    top: 280px;
 }
-.history-block:hover{
-    display: block;
-}
-.history-button:hover ~ .history-hidden-block {
-    display: block;
-}
-.history-hidden-block:hover{
-    display: block;
-}
-.some-button:hover ~ .history-hidden-block-second {
-    display: block;
-}
-.history-hidden-block-second:hover{
+
+.history-block:hover {
     display: block;
 }
 
-.history-button:hover ~ .hidden-block{
+.history-button:hover ~ .history-hidden-block {
+    display: block;
+}
+
+.history-hidden-block:hover {
+    display: block;
+}
+
+.some-button:hover ~ .history-hidden-block-second {
+    display: block;
+}
+
+.history-hidden-block-second:hover {
+    display: block;
+}
+
+.history-button:hover ~ .hidden-block {
     display: block;
 }
