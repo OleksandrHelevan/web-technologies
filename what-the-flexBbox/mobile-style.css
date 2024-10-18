@@ -16,6 +16,7 @@ body {
 
 
 a {
+    font-weight: 700;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,10 +55,9 @@ a.button {
 }
 
 .icon-bar a {
-    padding: 1.5rem;
+    padding: 1em;
     border-left: 1px solid rgba(0, 0, 0, 0.1);
     background: gold;
-    font-weight: 700;
     color: rgba(0, 0, 0, 0.5);
 }
 
@@ -78,38 +78,40 @@ a.button {
     color: rgba(0, 0, 0, 0.5);
     padding: 1px;
 }
-.app-wrap{
+
+.app-wrap {
     display: flex;
     flex-direction: column;
 }
 
 .app-wrap > * {
-    flex:1 1 auto;
+    flex: 1 1 auto;
 }
 
-.app-header{
+.app-header {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.content{
+.content {
     overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
 }
 
-.icon-bar{
+.icon-bar {
     display: flex;
 }
-.icon-bar a{
-    flex:1;
+
+.icon-bar a {
+    flex: 1;
+    overflow: hidden;
 }
-.icon-bar img{
+
+.icon-bar img {
     padding-right: 2px;
 }
-svg{
-   padding-right: 2px;
-}
-.app-header a{
 
+svg {
+    padding-right: 2px;
 }
