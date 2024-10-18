@@ -33,7 +33,8 @@ a {
 .slider-nav .arrow {
     flex: 1;
 }
-.slider-nav a{
+
+.slider-nav a {
     flex-basis: 100%;
     display: flex;
 }
