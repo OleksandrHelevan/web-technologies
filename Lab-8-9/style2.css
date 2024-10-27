@@ -23,10 +23,36 @@ a {
     background: whitesmoke;
     margin: 0 auto 10px auto;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    /*flex-direction: column;*/
+    justify-content: flex-start;
+    align-items: center;
     max-width: 1000px;
     padding: 5px;
+}
+
+header {
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    align-content: center;
+}
+
+header > * {
+    flex: 1;
+}
+header .navigation{
+    flex:2;
+}
+.navigation > ul {
+    flex:1;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: whitesmoke;
+    height: 110px;
 }
 
 
@@ -37,10 +63,6 @@ a {
     height: 100px;
 }
 
-
-.navigation-list > li:first-child {
-    flex: 5;
-}
 
 .navigation-list > li {
     padding: 5px;
@@ -234,6 +256,11 @@ a {
     width: 50%;
     height: 50%;
 }
+.navigation label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .info-item-title {
     margin: 10px 0;
@@ -261,20 +288,17 @@ a {
 
 
 .journal-content-list {
+    gap: 5px;
     width: 100%;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
 .journal-item {
-    width: 50%;
-    margin: 10px 0;
+    width: calc(100%/2 - 5px);
     display: flex;
-    align-items: center;
-    justify-content: center;
-
     img {
         width: 35%;
         height: 35%;
@@ -360,7 +384,10 @@ a {
 }
 
 input[type="checkbox"] {
-    display: none;
+    position: absolute;
+    z-index: -1;
+    display: block;
+   opacity: 0;
     width: 40px;
     height: 40px;
     cursor: pointer;
