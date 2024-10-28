@@ -14,7 +14,7 @@ body {
 }
 
 .wrapper {
-    max-width: 720px;
+    max-width: 800px;
     margin: 0 auto;
 }
 
@@ -29,7 +29,6 @@ body {
     border: 1px solid black;
     border-radius: 10px;
     box-shadow: 5px 5px 10px #000;
-    width: 100%;
     padding-bottom: 100%;
     position: relative;
 }
@@ -47,4 +46,30 @@ body {
 .wide-gallery-item {
     grid-column: span 5;
     padding-bottom: 40%;
+}
+
+@media all and (max-width: 800px) {
+    .wrapper {
+        max-width: 500px;
+        background-color: #fd5f60;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .gallery-item {
+        grid-column: span 2;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .gallery {
+        padding: 20px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .wide-gallery-item {
+        padding-bottom: 100%;
+    }
 }
