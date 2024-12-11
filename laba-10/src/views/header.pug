@@ -1,0 +1,16 @@
+header
+    a.logo(href="#") LOGO
+    nav.navigation
+        input(type="checkbox", id="burger")
+        label(for="burger")
+            span.burger
+        ul.navigation-list
+            - const navigationItems = [{ href: "pages/gallery-index.html", text: "Gallery" },{ href:"pages/cards-index.html", text: "Cards" },{ href: "pages/blocks-index.html", text: "Blocks" },{ href: "pages/tree-index.html", text: "Tree" },{ href: "#", text: "Contact" },]
+
+            each item in navigationItems
+                li
+                    a(href=item.href) #{item.text}
+
+            li
+                a
+                    img(src="icons/favorite_24dp_EA3323_FILL0_wght400_GRAD0_opsz24.svg", alt="like")

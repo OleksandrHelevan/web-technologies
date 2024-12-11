@@ -1,0 +1,12 @@
+@use "variables";
+body {
+  display: grid;
+  grid-template-columns: 2fr 6fr 1fr;
+  grid-template-rows: 1fr 5fr 1fr;
+  gap: 10px;
+}
+
+body > * {
+  background-color: variables.$background-color;
+  padding: variables.$padding;
+}

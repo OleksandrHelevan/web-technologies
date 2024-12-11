@@ -51,7 +51,7 @@ body {
 @media all and (max-width: 800px) {
     .wrapper {
         max-width: 500px;
-        background-color: #fd5f60;
+
     }
 
     .gallery {

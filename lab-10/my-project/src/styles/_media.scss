@@ -1,0 +1,157 @@
+@media (max-width: 1200px) {
+  header {
+    .header-buttons-container {
+      .header-button {
+        font-size: 14px;
+      }
+    }
+  }
+
+  .content-wrapper {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  header {
+    padding: 15px 10px;
+
+    .logo {
+      height: 40px;
+    }
+
+    .header-buttons-container {
+      .header-button {
+        padding: 8px 10px;
+        font-size: 12px;
+      }
+
+      .like-button img {
+        height: 20px;
+      }
+    }
+  }
+
+  .slogan-wrapper {
+    h2 {
+      font-size: 24px;
+    }
+
+    p {
+      font-size: 14px;
+    }
+  }
+
+  .work-head {
+    .box-name {
+      font-size: 24px;
+    }
+
+    .body-button {
+      font-size: 14px;
+    }
+  }
+
+  .offers-box {
+    flex-direction: column;
+
+    .offer {
+      margin-bottom: 20px;
+
+      .offer-image {
+        height: 60px;
+      }
+
+      h3 {
+        font-size: 20px;
+      }
+
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+
+  .news-wrapper {
+    .news {
+      margin-bottom: 20px;
+
+      .news-photo {
+        height: 150px;
+      }
+
+      .news-description-wrapper {
+        h3 {
+          font-size: 20px;
+        }
+
+        p {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+
+    .header-buttons-container {
+      flex-direction: column;
+      align-items: flex-start;
+
+      .header-button {
+        padding: 10px;
+        width: 100%;
+        text-align: left;
+      }
+    }
+  }
+
+  .slogan-wrapper {
+    h2 {
+      font-size: 22px;
+    }
+
+    p {
+      font-size: 13px;
+    }
+  }
+
+  .work-head {
+    .box-name {
+      font-size: 22px;
+    }
+
+    .body-button {
+      font-size: 13px;
+    }
+  }
+
+  .offers-box {
+    .offer {
+      text-align: center;
+
+      h3 {
+        font-size: 18px;
+      }
+    }
+  }
+
+  .news-wrapper {
+    .news {
+      flex-direction: column;
+
+      .news-photo {
+        width: 100%;
+        height: auto;
+      }
+
+      .news-description-wrapper {
+        text-align: center;
+      }
+    }
+  }
+}

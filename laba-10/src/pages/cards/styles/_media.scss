@@ -1,0 +1,17 @@
+
+@media all and (max-width: 800px){
+  .wrapper {
+    padding: 10px;
+    max-width: 600px;
+  }
+  .cards-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media all and (max-width: 500px) {
+  .wrapper{
+    padding: 10px;
+    max-width: 480px;
+  }
+}

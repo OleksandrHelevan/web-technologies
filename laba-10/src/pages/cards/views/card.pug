@@ -1,0 +1,9 @@
+mixin card(imgSrc, title, description)
+    .card-item
+        picture.card-image
+            img(src=imgSrc, alt="img")
+        .card-content
+            p.card-description
+                span.card-title #{title}
+                | #{description}
+        a(href="#", class="card-link") More

@@ -1,0 +1,11 @@
+include tree-item
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        title Wuf
+        link(rel="stylesheet", href="tree-style.css")
+    body
+        .tree-container
+            each item, index in Array(28)
+                +treeItem(index + 1)

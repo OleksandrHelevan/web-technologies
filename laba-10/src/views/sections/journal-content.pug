@@ -1,0 +1,13 @@
+section.journal-content
+    p.journal-content-title Something
+    p Some text which has no sense
+    ul.journal-content-list
+        - const journalItems = [{ img: "img_7.png", date: "12/12/2012", title: "Something", text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry..." },{ img: "img_8.png", date: "12/12/2012", title: "Something", text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry..." },{ img: "img_9.png", date: "12/12/2012", title: "Something", text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry..." },{ img: "img_10.png", date: "12/12/2012", title: "Something", text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry..." }]
+
+        each item in journalItems
+            li.journal-item
+                img(src=`icons/${item.img}`, alt="")
+                .journal-text
+                    p.date= item.date
+                    p.journal-title= item.title
+                    p= item.text

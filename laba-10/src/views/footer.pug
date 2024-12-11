@@ -1,0 +1,7 @@
+- const icons = [ "iconfinder_weather04.png", "iconfinder_weather05.png","iconfinder_weather06.png","iconfinder_weather07.png","iconfinder_weather08.png","iconfinder_weather09.png","iconfinder_weather10.png"]
+footer
+    ul.footer-content
+        each icon in icons
+            li
+                a
+                    img(src=`icons/${icon}`, alt="")

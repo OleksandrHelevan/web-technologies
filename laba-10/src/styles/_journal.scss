@@ -1,0 +1,32 @@
+
+.journal-content {
+    display: flex;
+    flex-direction: column;
+
+
+  &-title {
+    margin: 10px 0;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  &-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    > * {
+      flex: calc(50% - 10px);
+      display: flex;
+      align-items: flex-start;
+      gap: 5px;
+    }
+    .journal-text{
+      padding: 5px;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+@use 'mixins';
+
+.footer-content {
+  margin-top: 50px;
+  height: 100px;
+  background-color: #424242;
+  @include mixins.flex-center;
+
+  img {
+    width: 35px;
+    height: auto;
+  }
+}

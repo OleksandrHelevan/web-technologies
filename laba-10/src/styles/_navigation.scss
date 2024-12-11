@@ -1,0 +1,31 @@
+@use 'variables';
+@use 'mixins';
+
+.navigation {
+  background: variables.$background-color;
+  margin: 0 auto 10px auto;
+  @include mixins.flex-center;
+  max-width: 1000px;
+  padding: 5px;
+}
+
+.navigation-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.navigation-list > li {
+  padding: 5px;
+  text-align: center;
+  @include mixins.flex-center;
+  height: 100%;
+  width: 100%;
+  flex: 1;
+  text-transform: uppercase;
+}
+
+.navigation-list a:hover {
+  background-color: #eef2f3;
+}
